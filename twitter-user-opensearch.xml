@@ -1,0 +1,13 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+					   
+	<ShortName>Twitter Users</ShortName>
+	<Description>Look up a specific Twitter user</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gHDQMfBlSMJd0AAAHFSURBVDjLjZMxbhRBEEVfdffOjLwWBmmFMJgASDiAA8RhuAEkSARcgAuQcx8CMjAi2cAB8srYlgGvd2a6PsHMjma9gSmpsur/6//6bfTV5Kw6OzIjIIIZVUrGLZUAXNIqZ+ZunLViGo3nE8juiiHYrQBIXDp8XbVUwHELs5B4gPNfGwDUEr+ySMAKyIDJuW4adSRgZsRgpBhtC8CBvy4mBq3gW505jQHv3gJgiIcJ6jarSB1IAggh2Py60R8XEzMM8XnZjgTYAJOA1/eqbQkZuBQUCGnYGswwCRBmxiI7C9eNK7jrxypz7k41IlS/9nq8lXhaBJ5MwiaAARlx4U5lxlUWb+5WHJaJlTQIyIhZjBSj06a1xFqwcLFr8NvFTjCmJu6kCL0kB9KNXIQ+BkyAExfHLuYuvjdOMpB7NyCBO66RAWMTH0+MwoyjLDB4d77kNJccxEC7ZgdeVmkjSMM6yq0+XNS8P7uC2Ju0QSaQsR+NLwd77BddDgY73QJv90pe7ZbQeudasFEHiMbP1jlq8qYHADEEiwaf7u/wcTblWTJKiVKi6hsXL6rEYRm3JQyBclduG5ZETlz4aEjAo2gUBmX/1f8BoQTiSPVwbRoAAAAASUVORK5CYII=</Image>
+	<Url type="text/html" method="GET" template="http://twitter.com/{searchTerms}"></Url>
+	<moz:SearchForm>http://twitter.com/</moz:SearchForm>
+	
+	<Url type="application/opensearchdescription+xml" rel="self" template="http://code.chrisdzombak.net/files/TwitterUserOpenSearch/current/twitter-user-opensearch.xml" />
+	
+</OpenSearchDescription>
