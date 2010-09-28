@@ -2,7 +2,8 @@
 TwitterUserOpenSearch lets you quickly navigate to a user's Twitter page from the Firefox search bar. It should also work in other browsers that support OpenSearch, but it hasn't been tested in anything but Firefox.
 
 # Install #
-To install the search plugin, [click here](javascript:window.external.AddSearchProvider('http://github.com/cdzombak/TwitterUserOpenSearch/raw/master/twitter-user-opensearch.xml');).
+To install the search plugin, copy and paste the following line into your address bar, and hit Enter. (You can't put JS links in a Readme in Markdown, apparently.)
+  javascript:window.external.AddSearchProvider('http://github.com/cdzombak/TwitterUserOpenSearch/raw/master/twitter-user-opensearch.xml');
 
 # Author #
 This software was written by [Chris Dzombak](http://chris.dzombak.name).
