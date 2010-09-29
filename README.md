@@ -3,7 +3,8 @@ TwitterUserOpenSearch lets you quickly navigate to a user's Twitter page from th
 
 # Install #
 To install the search plugin, copy and paste the following line into your address bar, and hit Enter. (You can't put JS links in a Readme in Markdown, apparently.)
-  javascript:window.external.AddSearchProvider('http://github.com/cdzombak/TwitterUserOpenSearch/raw/master/twitter-user-opensearch.xml');
+
+    javascript:window.external.AddSearchProvider('http://github.com/cdzombak/TwitterUserOpenSearch/raw/master/twitter-user-opensearch.xml');
 
 # Author #
 This software was written by [Chris Dzombak](http://chris.dzombak.name).
